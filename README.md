@@ -1,22 +1,24 @@
-# Project2
-
-# Prediction-of-Product-Sales
+# Stroke Prediction
 - Author: Deshan Pillay
+### Stakeholders:
+- The Health and Life Insurance sector
 ### Business problem:
-- Predict the possibilties of having a stroke for patients based on the data available.
-### Data: The data comtains the below information about patients
+- The World Health Organization (WHO) have identified that 'Strokes' are the 2nd leading cause of death globally and responsible for 11% of total deaths.
+- The Health and Life insurance sectors have provided a dataset of clients information and requires for this data to be analysed, cleaned an build a model to predict the possibility of a client having a stroke based on their information.
+- This will allow the business to make an informed decision for calculating a clients Health and Life premiums as well as assisting the client to live a healthier life as a value added benefit.
+### Data: The data contains the below information about a client:
 - Source: www.kaggle.com
- 1   Gender                
+ 1   Gender ('M' or 'F')               
  2   Age         
- 3   Hypertension          
- 4   Heart disease               
- 5   Ever married                 
- 6   Work Type          
- 7   Residence Type  
- 8   Average glucose level               
- 9   BMI      
- 10  Smoking Status                
- 11  Stroke
+ 3   Hypertension (does the client have hypertension 'Y' or 'N')         
+ 4   Heart disease  (does the client have heart disease 'Y' or 'N')             
+ 5   Ever married  ('Y' or 'N')               
+ 6   Work Type ('Self-employes','Private','Government job', 'Never worked', 'children'        
+ 7   Residence Type ('Rural', 'Urban')
+ 8   Average glucose level  (average glucose levels in blood)             
+ 9   BMI  (Body mass index)
+ 10  Smoking Status (Smokes, never smoked, formerly smoked or Unknown status)             
+ 11  Stroke ( did the client previously have a stroke)
 
 ## Methods
 * Load,inspect and clean the data
@@ -43,7 +45,7 @@
 
 ![image](https://github.com/Desh86/Project2/assets/138576166/1c53619a-54a6-4c29-a186-6f2ca4b607ca)
 This graph indicates the correlation between having heart disease and smoking.
-Its clear that people which have never smoked as a less chance of having heart disease.
+Its clear that people which have never smoked have a less chance of having heart disease.
 
 Surprisingly people who used to smoke and stopped have heart disease as compared to people who are active smokers.
 
